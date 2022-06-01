@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>812</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>741</width>
+      <height>807</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QTreeWidget" name="candidateTreeWidget">
+         <column>
+          <property name="text">
+           <string notr="true">name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>dateOfBirth</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>specialty</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>position</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>bachelorDegree</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>minSalary</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>name</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_15">
+               <property name="text">
+                <string>dateOfBirth</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>specialty</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>position</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_14">
+               <property name="text">
+                <string>bachelorDegree</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>minSalary</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QLineEdit" name="nameLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="dateOfBirthLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="specialtyLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="positionLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="bachelorDegreeLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="minSalaryLineEdit"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="deleteCandidatePushButton">
+           <property name="text">
+            <string>Delete</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="addCandidate">
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="openCandiateFilePushButton">
+           <property name="text">
+            <string>Open file</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QTreeWidget" name="companyTreeWidget">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <column>
+          <property name="text">
+           <string notr="true">companyName</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>specialty</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>position</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>salary</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>vacationDays</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>minAge</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>maxAge</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>bachelorDegree</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>companyName</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>specialty</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>position</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>salary</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>vacationDays</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>minAge</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>maxAge</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>bachelorDegree</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QLineEdit" name="companyNameLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="companySpecialtyLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="companyPositionLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="salaryLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="vacationDaysLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="minAgeLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="maxAgeLineEdit"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="companyBachelorDegreeLineEdit"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="deleteCompanyPushButton">
+           <property name="text">
+            <string>Delete</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="addCompany">
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="openCompanyFilePushButton">
+           <property name="text">
+            <string>Open file</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QListWidget" name="listWidget"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="clearPushButton">
+         <property name="text">
+          <string>clear</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="listOfAvailableSpecialtysPushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="sizeIncrement">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="baseSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>подобрать список 
+ возможных вакансий</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="listOfRareSpeciltyPushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>список дефицитных вакансий</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="listOfFirmsWithoutAnyCandidatePushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>список фирм, для которых 
+не подобран ни один кандидат</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
